@@ -3,11 +3,11 @@ Pipeline{
     stages{
         stage("testing"){
             steps{
-                    echo "this is the testing stage"
+                echo "this is the testing stage"
 
             }
         }
-    }
+    
     
         stage("running"){
             steps{
@@ -24,6 +24,6 @@ Pipeline{
             }
 
         }
-
+    }
         
-]
+}
